@@ -5,3 +5,4 @@ if (isNaN(Number(a[0]))) {
 } else {
     console.log('My number: ' + parseInt(a[0]));
 }
+
