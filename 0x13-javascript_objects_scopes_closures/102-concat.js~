@@ -1,0 +1,5 @@
+#!/usr/bin/node
+const pa = require('pa');
+const a = pa.readFileSync(process.argv[2], 'utf8');
+const b = pa.readFileSync(process.argv[3], 'utf8');
+pa.writeFileSync(process.argv[4], a + b);
